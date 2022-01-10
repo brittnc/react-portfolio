@@ -1,0 +1,54 @@
+import React from "react";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardContent";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import { typography } from "@mui/system";
+
+export default function ProjectCard({
+  imageLink,
+  title,
+  description,
+  role,
+  technologies,
+  websiteLink,
+  gitLink,
+}) {
+  return (
+    <div className="cardCont">
+      <Card sx={{ maxWidth: 345 }}>
+        <CardMedia
+          className="cardImg"
+          component="img"
+          alt="app_photo"
+          height="auto"
+          image={imageLink}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {title}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            <p> {description} </p>
+            <p>
+              <b>Role:</b> {role}
+            </p>
+            <p>
+              <b>Technologies used:</b> {technologies}{" "}
+            </p>
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <a href={websiteLink}>
+            <Button size="small">Visit Website</Button>
+          </a>
+          <a href={gitLink}>
+            <Button size="small">GitHub Repo</Button>
+          </a>
+        </CardActions>
+      </Card>
+    </div>
+  );
+}
