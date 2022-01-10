@@ -1,42 +1,33 @@
 import React from "react";
 
-// import resume from '../images'  ADD RESUME
-
 export default function Footer() {
   return (
     <>
       <footer id="contact" className="footerCont">
         <ul className="footerUl">
-          <li className="footerLi">801-580-8581</li>
+          <li className="footerLi">907-519-8364</li>
           <li className="footerLi footerLiLink">
-            <a className="footerLiLink" href="mailto:codyktestakis@gmail.com">
+            <a className="footerLiLink" href="mailto:brittneylynn@live.com">
               Email!
             </a>
           </li>
           <li className="footerLi">
             <a
               className="footerLiLink"
-              href="https://www.linkedin.com/in/cody-ktestakis"
+              href="https://www.linkedin.com/in/brittneylynnc"
             >
               LinkedIn
             </a>
           </li>
           <li className="footerLi">
-            <a className="footerLiLink" href="https://github.com/Cktestakis">
+            <a className="footerLiLink" href="https://github.com/brittnc">
               GitHub
             </a>
           </li>
           <li className="footerLi">
-            <a
-              className="footerLiLink"
-              href={resume}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume
-            </a>
+
           </li>
-          <li className="footerLi">2022 Cody Ktestakis</li>
+          <li className="footerLi">2022 Brittneylynn Crosby</li>
         </ul>
       </footer>
     </>

@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 // import LiIcon from "../images/" Add Link image
 // import GitIcon from "../images/" Add Git image
+import 'normalize.css';
 import '../styles/App.css'
 
 export default function Navbar() {
@@ -10,7 +11,7 @@ export default function Navbar() {
         <div>
 
             <nav className="navbar">
-                <p className="initials animation" to="/">CK</p>
+                <p className="initials animation" to="/">BC</p>
                 <ul className="navBtnCont">
 
                     <li className="navBtn">
@@ -22,14 +23,8 @@ export default function Navbar() {
                     <li className="navBtn">
                         <NavLink className="navBtnLink" to="/contact">Contact</NavLink>
                     </li>
-                    <li className="navBtn">
-                        <NavLink className="navBtnLink" to="/resume" >Resume</NavLink>
-                    </li>
                 </ul>
-                <div className="socialIcons">
-                    <a href="https://www.linkedin.com/in/cody-ktestakis/" ><img className="linkedIcon" src={LiIcon} alt="linkedin-icon" /></a>
-                    <a href="https://github.com/Cktestakis" ><img className="gitIcon" src={GitIcon} alt="github-icon" /></a>
-                </div>
+
             </nav >
         </div >
     )

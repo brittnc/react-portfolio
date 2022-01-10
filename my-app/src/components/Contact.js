@@ -1,4 +1,4 @@
-import React from "core-js/library/fn/reflect/es7/metadata";
+import React from "react";
 
 export default function Contact() {
   return (
@@ -9,11 +9,11 @@ export default function Contact() {
             <div className="border3C">
               <h1>Contact Info</h1>
               <ul className="contactU1">
-                <li className="contactLi"> 801-580-8581</li>
+                <li className="contactLi"> 907-519-8364</li>
                 <li className="contactLi">
                   <a
                     className="contactLiLink"
-                    href="mailto:codyktestakis@gmail.com"
+                    href="mailto:brittneylynn@live.com"
                   >
                     {" "}
                     Email Me
@@ -22,7 +22,7 @@ export default function Contact() {
                 <li className="contactLi">
                   <a
                     className="contactLiLink"
-                    href="https://www.linkedin.com/in/cody-ktestakis/"
+                    href="https://www.linkedin.com/in/brittneylynnc/"
                   >
                     {" "}
                     LinkedIn
@@ -31,7 +31,7 @@ export default function Contact() {
                 <li className="contactLi">
                   <a
                     className="contactLiLink"
-                    href="https://github.com/Cktestakis"
+                    href="https://github.com/brittnc"
                   >
                     {" "}
                     Github
