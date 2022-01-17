@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://brittnc/react-portfolio.github.io",
+  "homepage": "http://brittnc.github.io/react-portfolio",
   "dependencies": {
     "@emotion/css": "^11.7.1",
     "@emotion/react": "^11.7.1",
